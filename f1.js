@@ -91,7 +91,9 @@ function printdatabitch(data){
 harshreadsfile(printdatabitch) ;
 
 // Better way using promises 
-
+function harshdoesntreads(){
+    console.log("i dont read files") ;  
+}
 
 function harshreadsFile1(){
     return new Promise(function(resolve){
